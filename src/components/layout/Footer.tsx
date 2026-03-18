@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-const FORMSPREE_URL = "https://formspree.io/f/myzpynpy";
+const FORMSPREE_URL = "https://formspree.io/f/mnjgbayn";
 const GMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
 
 const WhatsAppIcon = () => (
