@@ -36,7 +36,7 @@ export default function About() {
                   <h3 className="text-3xl font-bold text-slate-900 tracking-tight">Vision</h3>
                 </div>
                 <p className="text-xl text-slate-500 font-medium leading-relaxed">
-                  We envision a world where every teacher has access to high-quality, outcome-driven resources—bridging the gap between creativity, pedagogy, and real classroom needs.
+                  We envision a world where educational content is created with clarity, consistency, and high standards of quality, enabling effective learning experiences for all learners.
                 </p>
               </div>
 
@@ -48,7 +48,7 @@ export default function About() {
                   <h3 className="text-3xl font-bold text-slate-900 tracking-tight">Mission</h3>
                 </div>
                 <p className="text-xl text-slate-500 font-medium leading-relaxed">
-                  To create rigorously structured educational resources that prioritize student reading outcomes (SROs) through thoughtful design and strong pedagogy.
+                  We work with publishers and educational organizations in developing structured, curriculum-aligned learning content through disciplined editorial and production practices.
                 </p>
               </div>
             </div>
