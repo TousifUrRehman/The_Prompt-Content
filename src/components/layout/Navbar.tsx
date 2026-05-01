@@ -8,10 +8,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Approach", href: "#approach" },
-    { name: "Process", href: "#process" },
+    { name: "About Us", href: "#about" },
+    { name: "Our Services", href: "#services" },
+    { name: "Our Approach", href: "#approach" },
+    { name: "Our Workflow", href: "#process" },
   ];
 
   const scrollToContact = (e: React.MouseEvent<HTMLButtonElement>) => {

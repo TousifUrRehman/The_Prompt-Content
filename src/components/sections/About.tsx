@@ -3,9 +3,9 @@ import { CheckCircle2, Target, Eye, Workflow } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-32 bg-white overflow-hidden">
+    <section id="about" className="py-12 bg-white overflow-hidden">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row gap-24 items-center mb-32">
+        <div className="flex flex-col lg:flex-row gap-24 items-center mb-12">
           <div className="lg:w-1/2 relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
@@ -16,15 +16,15 @@ export default function About() {
               <img 
                 src="/images/missions.png"
                 alt="Our Mission" 
-                className="w-full h-auto object-cover aspect-[4/5]"
+                className="w-full h-auto object-cover aspect-[4/4]"
               />
             </motion.div>
             <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl opacity-50 z-0" />
           </div>
 
           <div className="lg:w-1/2">
-            <h2 className="text-5xl md:text-7xl font-heading font-extrabold text-slate-900 mb-10 tracking-tighter">
-              Our Vision & <span className="text-gradient">Mission.</span>
+            <h2 className="text-3xl md:text-7xl font-heading font-extrabold text-slate-900 mb-10 tracking-tighter">
+              Our Vision & <span className="text-gradient">Mission</span>
             </h2>
             
             <div className="space-y-12">
@@ -56,13 +56,13 @@ export default function About() {
         </div>
 
         {/* Approach Section */}
-        <div id="approach" className="pt-32 border-t border-slate-100">
-          <div className="text-center max-w-3xl mx-auto mb-24">
-            <h2 className="text-5xl md:text-6xl font-heading font-extrabold text-slate-900 mb-8 tracking-tighter">Our Approach.</h2>
+        <div id="approach" className="pt-12 border-t border-slate-100">
+          <div className="text-center max-w-3xl mx-auto mb-8">
+            <h2 className="text-5xl md:text-6xl font-heading font-extrabold text-slate-900 mb-8 tracking-tighter">Our Approach</h2>
             <p className="text-xl text-slate-500 font-medium">Combining literacy, pedagogy, and creativity to deliver practical tools for mastery tracking.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
                 icon: CheckCircle2,

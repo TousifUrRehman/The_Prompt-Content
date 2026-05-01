@@ -42,20 +42,20 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-32 bg-slate-900 text-white relative overflow-hidden">
+    <section id="process" className="py-12 bg-slate-900 text-white relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[160px] opacity-20" />
       
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-4xl mb-24">
+        <div className="max-w-4xl mb-12">
           <h2 className="text-5xl md:text-7xl font-heading font-extrabold mb-8 tracking-tighter">
-            Our <span className="text-primary">Process.</span>
+            Our <span className="text-primary">Workflow</span>
           </h2>
           <p className="text-xl text-slate-400 font-light max-w-2xl">
             Our Structured AI Publishing Framework — a strategic system for creating impactful educational content at every stage.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {steps.map((step, index) => (
             <motion.div
               key={index}

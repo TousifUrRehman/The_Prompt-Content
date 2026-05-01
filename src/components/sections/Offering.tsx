@@ -44,20 +44,20 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 bg-slate-900 text-white relative overflow-hidden">
+    <section id="services" className="py-12 bg-slate-900 text-white relative overflow-hidden">
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[160px] opacity-20" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mb-24">
           <h2 className="text-5xl md:text-7xl font-heading font-extrabold mb-8 tracking-tighter">
-            Our <span className="text-primary">Services.</span>
+            Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-xl text-slate-400 font-light max-w-2xl">
             Tailored publishing solutions for educational producers — from full series production to focused manuscript and workflow support.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((service, index) => (
             <motion.div
               key={index}

@@ -42,9 +42,9 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 bg-white relative">
+    <section id="services" className="py-12 bg-white relative">
       <div className="container mx-auto px-6">
-        <div className="max-w-3xl mb-24">
+        <div className="max-w-3xl mb-12">
           <h2 className="text-5xl md:text-7xl font-heading font-extrabold text-slate-900 mb-8 tracking-tighter">
             What <span className="text-gradient">We Do</span>
           </h2>
@@ -53,7 +53,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((service, index) => (
             <motion.div
               key={index}
@@ -63,12 +63,12 @@ export default function Services() {
               transition={{ delay: index * 0.1 }}
               className="group"
             >
-              <div className="p-10 rounded-[3rem] border border-slate-100 bg-slate-50/50 hover:bg-white hover:shadow-2xl hover:shadow-slate-200 transition-all duration-500 h-full flex flex-col">
+              <div className="p-5 rounded-[3rem] border border-slate-100 bg-slate-50/50 hover:bg-white hover:shadow-2xl hover:shadow-slate-200 transition-all duration-500 h-full flex flex-col">
                 <div className={`w-16 h-16 rounded-[1.5rem] bg-gradient-to-br ${service.color} flex items-center justify-center text-white mb-10 shadow-lg transition-transform duration-500 group-hover:-rotate-12`}>
                   <service.icon size={30} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-3xl font-bold text-slate-900 mb-6 tracking-tight">{service.title}</h3>
-                <p className="text-slate-500 leading-relaxed font-medium mb-10 flex-grow">
+                <h3 className="text-3xl font-bold text-slate-900 mb-3 tracking-tight">{service.title}</h3>
+                <p className="text-slate-500 leading-relaxed font-medium mb-5 flex-grow">
                   {service.description}
                 </p>
               </div>
