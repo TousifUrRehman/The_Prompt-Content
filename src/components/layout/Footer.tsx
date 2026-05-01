@@ -104,7 +104,7 @@ export default function Footer() {
 
               {/* WhatsApp — clickable, no number shown */}
               <a
-                href="https://wa.me/923184961691"
+                href="https://wa.me/923344942803"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-6 group"
@@ -251,10 +251,10 @@ export default function Footer() {
             <img src="/images/logo.png" alt="Logo" className="h-8 w-8 grayscale opacity-50" />
             <p className="text-sm font-bold text-slate-400">© {new Date().getFullYear()} PROMPT CONTENT. ALL RIGHTS RESERVED.</p>
           </div>
-          <div className="flex gap-10">
+          {/* <div className="flex gap-10">
             <a href="#" className="text-sm font-bold text-slate-400 hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="text-sm font-bold text-slate-400 hover:text-primary transition-colors">Terms</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

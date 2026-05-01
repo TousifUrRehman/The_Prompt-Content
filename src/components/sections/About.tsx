@@ -16,7 +16,7 @@ export default function About() {
               <img 
                 src="/images/missions.png"
                 alt="Our Mission" 
-                className="w-full h-auto object-cover aspect-[4/4]"
+                className="w-full h-auto object-cover aspect-[3/3]"
               />
             </motion.div>
             <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl opacity-50 z-0" />
